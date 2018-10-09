@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.app.bmi"
+    versionCode = "12"
+    version     = "1.2" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>App BMI </name>
+
+  <description>
+      App per il calcolo del BMI dati il peso in kg.
+	l'altezza in metri, il sesso,indica como il BMI si posiziona nella tabella di riferimento. 
+  </description>
+
+  <author email="malinverni.rebecca@canossamilano.org">
+	Rebecca Malinverni 
+  </author>
+	<platform name="android" />
+	<icon src="icona2.jpg" platform="android" qualifier="ldpi" />
+	<icon src="icona.jpg" platform="android" qualifier="mdpi" />
+	<icon src="icona2.jpg" platform="android" qualifier="hdpi" />
+
+	<access origin="*"/>
+	<plugin name="cordova-plugin-whitelist" sorce="npm" />
+	<!-- abilita links esterni -->
+	<allow-navigation href="*://*getskeleon.com*"/>
+</widget>
